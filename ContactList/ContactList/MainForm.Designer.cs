@@ -47,19 +47,20 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(266, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(313, 39);
+            this.label2.Size = new System.Drawing.Size(300, 38);
             this.label2.TabIndex = 1;
             this.label2.Text = "Danh Sách Liên Hệ";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(335, 338);
+            this.button1.Location = new System.Drawing.Point(289, 340);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(189, 44);
+            this.button1.Size = new System.Drawing.Size(262, 52);
             this.button1.TabIndex = 2;
             this.button1.Text = "Thêm Liên Hệ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
