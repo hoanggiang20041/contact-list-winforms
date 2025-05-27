@@ -80,6 +80,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "AddContactForm";
             this.Text = "AddContactForm";
+            this.Load += new System.EventHandler(this.AddContactForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
